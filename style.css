@@ -1,0 +1,413 @@
+/*
+Theme Name: Faded
+Theme URI: http://droitthemes.com/wp/faded/
+Author: droitthemes
+Author URI: https://themeforest.net/user/droitthemes
+Description: App Landing Page with blog
+Version: 1.9.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header,post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: faded
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.sticky .posted-on,
+.byline {
+    display: none;
+}
+.screen-reader-text {
+    position: absolute !important;
+    left: -999em;
+}
+
+
+/* footer_widget_area */
+
+footer.footer_area {
+    background: #2a2a2a;
+}
+
+.f_logo {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.widget {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.widget p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.f_title {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget ul li {}
+
+.widget ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.widget.service_widget {
+    padding-left: 25px;
+}
+
+.widget .social_footer ul li {
+    display: inline;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.footer_top {
+    padding: 120px 0 110px;
+}
+
+.footer_bottom {
+    background: #1d1d1d;
+    padding: 30px 0px;
+}
+
+.footer_bottom p {
+    font-size: 18px;
+    color: rgba(88, 94, 104, 0.8);
+    font-weight: 500;
+}
+
+.footer_bottom p a {
+    color: #757887;
+}
+
+.footer_bottom p a:hover {
+    color: #fff;
+}
+
+.widget ul li a:hover {
+    color: #725ce6;
+}
+.footer_area {
+    text-align: center;
+}
+.footer_subcription{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.tagcloud a:hover {
+    background: #725ce6 !important;
+    color: #fff;
+}
+
+
+/*    custom style  */
+
+.widget.widget_recent_post {}
+
+.widget.widget_recent_post ul li {}
+
+.widget.widget_recent_post ul .post-item {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.widget.widget_recent_post ul .post-item .post-image {
+    margin-right: 20px;
+    float: left;
+}
+
+.widget.widget_recent_post ul .post-item .post-image a img {
+    width: 120px;
+    height: 80px;
+}
+
+.widget.widget_recent_post ul .post-item .post-image a {
+    display: block;
+}
+
+.widget.widget_recent_post ul .post-item .post-content {}
+
+.widget.widget_recent_post ul .post-item .post-content h5 {
+    margin: 0 0 6px;
+}
+
+.widget.widget_recent_post ul .post-item .post-content h5 a {
+    line-height: 20px;
+}
+
+.widget.widget_contact ul li p i {
+    margin-right: 15px;
+    float: left;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+
+/* Theme Check Footer Widget*/
+
+.footer-widget .textwidget img {
+    width: 100%;
+    
+
+}
+.footer-widget select{
+  color: #000;
+  height: 40px;
+  width: 100%;  
+}
+
+
+.footer_widget_area table#wp-calendar {
+    width: 100%;
+}
+
+.footer_widget_area table#wp-calendar tr td, .footer_widget_area table#wp-calendar tr th {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer_widget_area table#wp-calendar tr td#today {
+    font-weight: 700;
+    color: #725ce6;
+}
+
+.footer_widget_area .wp-caption {
+    background: transparent;
+}
+
+/*custom video style*/
+.home-video-overlay {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.60;
+}
+
+
+/*         custom style   for section bg                     */
+
+section.sec-overview .warpper-outer:hover .wrapper  {
+    background-color: #fff;
+}
+
+section.sec-overview .warpper-outer .wrapper:before {
+    opacity: 0;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+section.sec-overview .warpper-outer:hover .wrapper:before {
+    opacity: 1;
+}
+
+a.btn-transparent.delay-c.animate.fadeInUp {
+    width: 190px;
+}
+a.btn-white.delay-b.animate.fadeInUp {
+    width: 190px;
+}
+
+
+
+
+/*title-underline-css*/
+
+ul.divider {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 160px;
+}
+
+ul.divider li {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background-color: #725ce6;
+    border-radius: 50%;
+    margin: 0 1px;
+}
+
+
+ul.divider li.divider_dot {
+    width: 7px;
+    height: 7px;
+}
+
+ul.divider li.divider_dot.ml {
+    margin-left: 5px;
+}
+
+ul.divider li.divider_dot.mr {
+    margin-right: 5px;
+}
+
+.pb_35 {
+    padding-bottom: 35px;
+}
+
+
+
+.divider_left .divider {
+    margin-right: auto;
+} 
+
+.divider_right .divider {
+    margin-left: auto;
+} 
+
+.divider_center .divider {
+    margin: 0 auto;
+} 
+
+.sec-title.divider{
+    align-items: inherit;;
+}
+
+
+
+@media (max-width: 1024px) {
+ .video-background {
+    height: 100vh !important;
+    width: auto !important;
+}
+video#bgvid {
+    width: auto !important;
+    height: 100% !important;
+
+}
+}
+@media (max-width: 768px) {
+ .video-background {
+    height: 100vh !important;
+    width: 100%;
+}
+video#bgvid {
+    width: auto !important;
+    height: 100%;
+}
+    #P1{
+    display: none !important;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.37);
+    position: static !important;
+    }
+
+}
+
+h2.widget_title {
+    margin-top: 0;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+
+.widget ul li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.post-image {
+    width: 22%;
+    max-width: 80px;
+}
+
+.post-content {
+    width: 68%;
+    padding-left: 15px;
+}
+
+.sec-blog-list .right_pad {
+    padding-right: 35px;
+}
+
+.widget_faded_footer_recent_widget h4.widget_title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h4.widget_title{
+    font-weight:600;
+}
+
+
+.post-content h5 {
+    margin-bottom: 5px;
+}
+
+.post-content h5 a{
+    line-height:20px !important;
+}
+
+/*them-check*/
+
+.site-content.container {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
+.site-content.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.sec-blog-post .blog-comment .comments-area{
+    padding-bottom: 90px;
+}
+
+.navbar.navbar-fixed-top.bg-solid >.container .navbar-brand, .navbar>.container-fluid .navbar-brand img{
+    padding: 35px 15px !important;
+}
+.navbar.navbar-fixed-top.bg-solid >.container .navbar-brand, .navbar>.container-fluid .navbar-brand a{
+    padding: 15px 15px 12px !important;
+}
+.navbar.navbar-fixed-top >.container .navbar-brand, .navbar>.container-fluid .navbar-brand img 
+{
+    padding: 7.5px 15px !important;
+}
+.navbar.navbar-fixed-top >.container .navbar-brand, .navbar>.container-fluid .navbar-brand a{
+   padding: 15px 15px !important;
+}
+
+img.img-responsive.features_img{
+    padding: 0 0;
+
+}
+
+nav .navbar-header .navbar-brand {
+    height: auto !important;
+}
+
+@media (min-width: 768px) {
+    nav.bg-solid {
+        padding: 15px 0 !important;
+    }
+}
