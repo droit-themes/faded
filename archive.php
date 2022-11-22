@@ -41,7 +41,7 @@ $ar_title = str_replace('Category:', '', $ar_title);
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="sec-title"><?php echo esc_html($ar_title); ?></h1>
+                <h1 class="sec-title"><?php echo get_the_archive_title(); ?></h1>
                 <?php if($is_blog_breadcrumb == 1): ?>
                     <h5 class="breadcrumb">
                         <span><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo esc_html__("Home","faded"); ?></a></span>                    
